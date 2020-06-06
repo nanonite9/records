@@ -1,7 +1,7 @@
 /* 
  * Filename: Processor.java
  * Author: nanonite9
- * Date: November 27, 2017
+ * Date: November 27, 2017.
  * Description: This program reads the specified amount of entries of all records in the input file and proceeds to return the amount of occurences of the characters A, D and W in the output file.
  */
 
