@@ -1,5 +1,5 @@
 /* 
- * Filename: RecordProcessor.java
+ * Filename: processor.java
  * Author: nanonite9
  * Date: November 27, 2017
  * Description: This program reads the specified amount of entries of all records in the input file and proceeds to return the amount of occurences of the characters A, D and W in the output file.
@@ -10,7 +10,7 @@ import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-class RecordProcessor {
+class processor {
 
     public static void process(String[] entries) throws IOException {
 
@@ -109,7 +109,7 @@ class RecordProcessor {
                 System.out.print("Please input the input file name: ");
                 input = scan.next();
                 // reads file
-                entries = RecordReader.readEntriesFromFile(input);
+                entries = reader.readEntriesFromFile(input);
                 inputValid = true;
                 process(entries);
             }
