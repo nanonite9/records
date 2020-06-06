@@ -1,7 +1,7 @@
 /* 
- * Filename: reader.java
+ * Filename: Reader.java
  * Author: nanonite9
- * Date: November 27, 2017
+ * Date: November 27, 2017.
  * Description: This program reads a text file and returns the third entry of the records in an array.
  */
 
@@ -10,7 +10,7 @@ import java.io.FileReader;
 import java.io.FileNotFoundException;
 import java.io.BufferedReader;
 
-public class reader {
+public class Reader {
 
     public static String [] readEntriesFromFile(String inputFileName) throws FileNotFoundException, IOException {
     // open the input file by the user
